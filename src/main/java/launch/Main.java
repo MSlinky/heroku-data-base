@@ -25,8 +25,8 @@ public class Main {
         System.out.println("configuring app with basedir: "
                 + new File("./" + webappDirLocation).getAbsolutePath());
         
-        CalculatorView vista = new CalculatorView();
-        vista.setVisible(true);  
+        //CalculatorView vista = new CalculatorView();
+        //vista.setVisible(true);  
         
         tomcat.start();
         tomcat.getServer().await();
